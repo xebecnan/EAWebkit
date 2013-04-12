@@ -1365,6 +1365,19 @@ bool OutlineFont::RenderGlyphBitmap(const GlyphBitmap** pGlyphBitmap, GlyphId gl
                         mGlyphBitmap.mnStride       = (uint32_t)pGlyphSlot->bitmap.pitch;
                         //mGlyphBitmap.mBitmapFormat  = kBFGrayscale;
                         mGlyphBitmap.mBitmapFormat  = (mFontDescription.mSmooth == kSmoothEnabled) ? kBFGrayscale : kBFMonochrome;
+                        switch (static_cast<FT_Pixel_Mode>(pGlyphSlot->bitmap.pixel_mode))
+                        {
+                        case FT_PIXEL_MODE_MONO:
+                            mGlyphBitmap.mBitmapFormat = kBFMonochrome;
+                            break;
+                        case FT_PIXEL_MODE_GRAY:
+                            mGlyphBitmap.mBitmapFormat = kBFGrayscale;
+                            break;
+                        case FT_PIXEL_MODE_LCD:
+                        case FT_PIXEL_MODE_LCD_V:
+                            mGlyphBitmap.mBitmapFormat = kBFGrayscale;
+                            break;
+                        }
                         mGlyphBitmap.mpData         = pGlyphSlot->bitmap.buffer;
                     }
         
