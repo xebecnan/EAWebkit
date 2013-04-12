@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VisualStudioProject Version="9.00" Name="EAAssertEAWebKit" TargetFrameworkVersion="196613" Keyword="Win32Proj" ProjectGUID="{A89A65D0-5555-2C13-4EF1-6B1F46177BC9}" ProjectType="Visual C++">
+  <Platforms>
+    <Platform Name="Win32" />
+  </Platforms>
+  <ToolFiles>
+    <DefaultToolFile FileName="masm.rules" />
+  </ToolFiles>
+  <Configurations>
+    <Configuration Name="pc-vc-dev-debug|Win32" OutputDirectory="pc-vc-dev-debug\build\EAAssertEAWebKit" IntermediateDirectory="pc-vc-dev-debug\build\EAAssertEAWebKit\vcproj" CharacterSet="2" ConfigurationType="4">
+      <Tool Name="VCPreBuildEventTool" />
+      <Tool Name="VCCustomBuildTool" />
+      <Tool Name="MASM" />
+      <Tool Name="VCXMLDataGeneratorTool" />
+      <Tool Name="VCWebServiceProxyGeneratorTool" />
+      <Tool Name="VCMIDLTool" />
+      <Tool Name="VCCLCompilerTool" PreprocessorDefinitions="WIN32;EA_DEBUG;_DEBUG;_SECURE_SCL=1;_WIN32_WINNT=0x0501;WINVER=0x0501;_WIN32_IE=0x0501" AdditionalIncludeDirectories="&quot;..\..\..\..\EAWebKitSupportPackages\EAAssertEAWebKit\local\include&quot;;&quot;..\..\..\..\EAWebKitSupportPackages\EABaseEAWebKit\local\include\Common&quot;;&quot;$(VSInstallDir)\VC\ATLMFC\INCLUDE&quot;;&quot;$(VSInstallDir)\VC\INCLUDE&quot;;&quot;$(WindowsSDKDir)\include&quot;;&quot;$(VSInstallDir)\SDK\v2.0\include&quot;;&quot;$(VSInstallDir)\INCLUDE&quot;" AdditionalOptions="-Wall " MinimalRebuild="FALSE" BufferSecurityCheck="FALSE" Optimization="0" CompileOnly="TRUE" BasicRuntimeChecks="3" WarnAsError="TRUE" CompileAs="0" RuntimeLibrary="3" SuppressStartupBanner="TRUE" DebugInformationFormat="3" DisableSpecificWarnings="4061; 4062; 4100; 4324; 4619; 4514; 4640; 4668; 4710; 4711; 4738; 4820; 4826; 4819; 4826; 4692; 4996; " WarningLevel="4" ForceConformanceInForLoopScope="TRUE" ExceptionHandling="0" RuntimeTypeInfo="FALSE" ProgramDataBaseFileName="pc-vc-dev-debug\lib\EAAssertEAWebKit.pdb" />
+      <Tool Name="VCLibrarianTool" OutputFile="pc-vc-dev-debug\lib\EAAssertEAWebKit.lib" AdditionalDependencies="" SuppressStartupBanner="TRUE" />
+      <Tool Name="VCManifestTool" OutputManifestFile="pc-vc-dev-debug\EAAssertEAWebKit.embed.manifest" ManifestResourceFile="pc-vc-dev-debug\EAAssertEAWebKit.embed.manifest.res" />
+      <Tool Name="VCManagedResourceCompilerTool" />
+      <Tool Name="VCResourceCompilerTool" AdditionalIncludeDirectories="&quot;..\..\..\..\EAWebKitSupportPackages\EAAssertEAWebKit\local\include&quot;;&quot;..\..\..\..\EAWebKitSupportPackages\EABaseEAWebKit\local\include\Common&quot;;&quot;$(VSInstallDir)\VC\ATLMFC\INCLUDE&quot;;&quot;$(VSInstallDir)\VC\INCLUDE&quot;;&quot;$(WindowsSDKDir)\include&quot;;&quot;$(VSInstallDir)\SDK\v2.0\include&quot;;&quot;$(VSInstallDir)\INCLUDE&quot;" />
+      <Tool Name="VCPreLinkEventTool" />
+      <Tool Name="VCALinkTool" />
+      <Tool Name="VCXDCMakeTool" />
+      <Tool Name="VCBscMakeTool" />
+      <Tool Name="VCFxCopTool" />
+      <Tool Name="VCPostBuildEventTool" />
+    </Configuration>
+    <Configuration Name="pc-vc-dev-opt|Win32" OutputDirectory="pc-vc-dev-opt\build\EAAssertEAWebKit" IntermediateDirectory="pc-vc-dev-opt\build\EAAssertEAWebKit\vcproj" CharacterSet="2" ConfigurationType="4">
+      <Tool Name="VCPreBuildEventTool" />
+      <Tool Name="VCCustomBuildTool" />
+      <Tool Name="MASM" />
+      <Tool Name="VCXMLDataGeneratorTool" />
+      <Tool Name="VCWebServiceProxyGeneratorTool" />
+      <Tool Name="VCMIDLTool" />
+      <Tool Name="VCCLCompilerTool" PreprocessorDefinitions="WIN32;NDEBUG;_SECURE_SCL=0;_WIN32_WINNT=0x0501;WINVER=0x0501;_WIN32_IE=0x0501" AdditionalIncludeDirectories="&quot;..\..\..\..\EAWebKitSupportPackages\EAAssertEAWebKit\local\include&quot;;&quot;..\..\..\..\EAWebKitSupportPackages\EABaseEAWebKit\local\include\Common&quot;;&quot;$(VSInstallDir)\VC\ATLMFC\INCLUDE&quot;;&quot;$(VSInstallDir)\VC\INCLUDE&quot;;&quot;$(WindowsSDKDir)\include&quot;;&quot;$(VSInstallDir)\SDK\v2.0\include&quot;;&quot;$(VSInstallDir)\INCLUDE&quot;" AdditionalOptions="-Wall " MinimalRebuild="FALSE" BufferSecurityCheck="FALSE" Optimization="2" CompileOnly="TRUE" WarnAsError="TRUE" CompileAs="0" RuntimeLibrary="2" SuppressStartupBanner="TRUE" DebugInformationFormat="3" DisableSpecificWarnings="4061; 4062; 4100; 4324; 4619; 4514; 4640; 4668; 4710; 4711; 4738; 4820; 4826; 4819; 4826; 4692; 4996; " WarningLevel="4" ForceConformanceInForLoopScope="TRUE" ExceptionHandling="0" RuntimeTypeInfo="FALSE" ProgramDataBaseFileName="pc-vc-dev-opt\lib\EAAssertEAWebKit.pdb" />
+      <Tool Name="VCLibrarianTool" OutputFile="pc-vc-dev-opt\lib\EAAssertEAWebKit.lib" AdditionalDependencies="" SuppressStartupBanner="TRUE" />
+      <Tool Name="VCManifestTool" OutputManifestFile="pc-vc-dev-opt\EAAssertEAWebKit.embed.manifest" ManifestResourceFile="pc-vc-dev-opt\EAAssertEAWebKit.embed.manifest.res" />
+      <Tool Name="VCManagedResourceCompilerTool" />
+      <Tool Name="VCResourceCompilerTool" AdditionalIncludeDirectories="&quot;..\..\..\..\EAWebKitSupportPackages\EAAssertEAWebKit\local\include&quot;;&quot;..\..\..\..\EAWebKitSupportPackages\EABaseEAWebKit\local\include\Common&quot;;&quot;$(VSInstallDir)\VC\ATLMFC\INCLUDE&quot;;&quot;$(VSInstallDir)\VC\INCLUDE&quot;;&quot;$(WindowsSDKDir)\include&quot;;&quot;$(VSInstallDir)\SDK\v2.0\include&quot;;&quot;$(VSInstallDir)\INCLUDE&quot;" />
+      <Tool Name="VCPreLinkEventTool" />
+      <Tool Name="VCALinkTool" />
+      <Tool Name="VCXDCMakeTool" />
+      <Tool Name="VCBscMakeTool" />
+      <Tool Name="VCFxCopTool" />
+      <Tool Name="VCPostBuildEventTool" />
+    </Configuration>
+  </Configurations>
+  <References>
+  </References>
+  <Files>
+    <Filter Name="include" Filter="">
+      <Filter Name="EAAssert" Filter="">
+        <File RelativePath="..\..\..\..\EAWebKitSupportPackages\EAAssertEAWebKit\local\include\EAAssert\eaassert.h">
+        </File>
+      </Filter>
+    </Filter>
+    <Filter Name="source" Filter="">
+      <File RelativePath="..\..\..\..\EAWebKitSupportPackages\EAAssertEAWebKit\local\source\eaassert.cpp">
+        <FileConfiguration Name="pc-vc-dev-debug|Win32">
+          <Tool Name="VCCLCompilerTool" ObjectFile="pc-vc-dev-debug\build\EAAssertEAWebKit\vcproj\source\eaassert.cpp.obj" />
+        </FileConfiguration>
+        <FileConfiguration Name="pc-vc-dev-opt|Win32">
+          <Tool Name="VCCLCompilerTool" ObjectFile="pc-vc-dev-opt\build\EAAssertEAWebKit\vcproj\source\eaassert.cpp.obj" />
+        </FileConfiguration>
+      </File>
+    </Filter>
+  </Files>
+  <Globals>
+    <Global Name="vc-compiler" Value="$(VSInstallDir)\VC\BIN\cl.exe" />
+    <Global Name="vc-linker" Value="$(VSInstallDir)\VC\BIN\link.exe" />
+    <Global Name="vc-asm" Value="$(VSInstallDir)\VC\BIN\ml.exe" />
+    <Global Name="vc-librarian" Value="$(VSInstallDir)\VC\BIN\lib.exe" />
+    <Global Name="vc-postlink.program" Value="$(WindowsSDKDir)\BIN\mt.exe" />
+    <Global Name="build.env.PATH" Value="$(VSInstallDir)\Common7\IDE" />
+    <Global Name="$(VSInstallDir)" Value="C:\Program Files\Microsoft Visual Studio 9.0" />
+    <Global Name="$(WindowsSDKDir)" Value="C:\packages\WindowsSDK\6.1.6001.18000\installed" />
+    <Global Name="$(DXSDK_DIR)" Value="C:\Program Files\Microsoft DirectX SDK (November 2008)" />
+  </Globals>
+</VisualStudioProject>

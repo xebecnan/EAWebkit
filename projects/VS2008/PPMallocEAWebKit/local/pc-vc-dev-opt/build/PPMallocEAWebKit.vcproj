@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VisualStudioProject ProjectType="Visual C++" Version="9.00" Name="PPMallocEAWebKit" ProjectGUID="{A26C9DC8-03A1-EFE6-1436-277FDCB9757B}" Keyword="Win32Proj" TargetFrameworkVersion="196613">
+  <Platforms>
+    <Platform Name="Win32" />
+  </Platforms>
+  <ToolFiles />
+  <Configurations>
+    <Configuration Name="pc-vc-dev-opt|Win32" OutputDirectory="PPMallocEAWebKit" IntermediateDirectory="PPMallocEAWebKit\vcproj" CharacterSet="2" ConfigurationType="4">
+      <Tool Name="VCPreBuildEventTool" />
+      <Tool Name="VCCustomBuildTool" />
+      <Tool Name="MASM" />
+      <Tool Name="VCXMLDataGeneratorTool" />
+      <Tool Name="VCWebServiceProxyGeneratorTool" />
+      <Tool Name="VCMIDLTool" />
+      <Tool Name="VCCLCompilerTool" PreprocessorDefinitions="WIN32;NDEBUG;_SECURE_SCL=0;PPM_HIGH_SUPPORTED;_WIN32_WINNT=0x0501;WINVER=0x0501;_WIN32_IE=0x0501" AdditionalIncludeDirectories="&quot;..\..\..\..\..\..\EAWebKitSupportPackages\PPMallocEAWebKit\local\include&quot;;&quot;..\..\..\..\..\..\EAWebKitSupportPackages\PPMallocEAWebKit\local\source&quot;;&quot;..\..\..\..\..\..\EAWebKitSupportPackages\EABaseEAWebKit\local\include\Common&quot;;&quot;$(VSInstallDir)\VC\ATLMFC\INCLUDE&quot;;&quot;$(VSInstallDir)\VC\INCLUDE&quot;;&quot;$(WindowsSDKDir)\include&quot;;&quot;$(VSInstallDir)\SDK\v2.0\include&quot;;&quot;$(VSInstallDir)\INCLUDE&quot;" AdditionalOptions="-Wall " MinimalRebuild="FALSE" BufferSecurityCheck="FALSE" Optimization="2" CompileOnly="TRUE" WarnAsError="TRUE" CompileAs="0" RuntimeLibrary="2" SuppressStartupBanner="TRUE" DebugInformationFormat="3" DisableSpecificWarnings="4061; 4062; 4100; 4324; 4619; 4514; 4640; 4668; 4710; 4711; 4738; 4820; 4826; 4819; 4826; 4692; 4996; " WarningLevel="4" ForceConformanceInForLoopScope="TRUE" ExceptionHandling="0" RuntimeTypeInfo="FALSE" ProgramDataBaseFileName="..\lib\PPMallocEAWebKit.pdb" />
+      <Tool Name="VCLibrarianTool" OutputFile="&quot;..\lib\PPMallocEAWebKit.lib&quot;" AdditionalDependencies="" SuppressStartupBanner="TRUE" />
+      <Tool Name="VCManifestTool" OutputManifestFile="pc-vc-dev-opt\PPMallocEAWebKit.embed.manifest" ManifestResourceFile="pc-vc-dev-opt\PPMallocEAWebKit.embed.manifest.res" />
+      <Tool Name="VCManagedResourceCompilerTool" />
+      <Tool Name="VCResourceCompilerTool" AdditionalIncludeDirectories="&quot;..\..\..\..\..\..\EAWebKitSupportPackages\PPMallocEAWebKit\local\include&quot;;&quot;..\..\..\..\..\..\EAWebKitSupportPackages\PPMallocEAWebKit\local\source&quot;;&quot;..\..\..\..\..\..\EAWebKitSupportPackages\EABaseEAWebKit\local\include\Common&quot;;&quot;$(VSInstallDir)\VC\ATLMFC\INCLUDE&quot;;&quot;$(VSInstallDir)\VC\INCLUDE&quot;;&quot;$(WindowsSDKDir)\include&quot;;&quot;$(VSInstallDir)\SDK\v2.0\include&quot;;&quot;$(VSInstallDir)\INCLUDE&quot;" />
+      <Tool Name="VCPreLinkEventTool" />
+      <Tool Name="VCALinkTool" />
+      <Tool Name="VCXDCMakeTool" />
+      <Tool Name="VCBscMakeTool" />
+      <Tool Name="VCFxCopTool" />
+      <Tool Name="VCPostBuildEventTool" />
+    </Configuration>
+  </Configurations>
+  <References>
+  </References>
+  <Files>
+    <Filter Name="include" Filter="">
+      <Filter Name="PPMalloc" Filter="">
+        <File RelativePath="..\..\..\..\..\..\EAWebKitSupportPackages\PPMallocEAWebKit\local\include\PPMalloc\EAStackAllocator.h">
+        </File>
+        <Filter Name="internal" Filter="">
+          <File RelativePath="..\..\..\..\..\..\EAWebKitSupportPackages\PPMallocEAWebKit\local\include\PPMalloc\internal\config.h">
+          </File>
+          <File RelativePath="..\..\..\..\..\..\EAWebKitSupportPackages\PPMallocEAWebKit\local\include\PPMalloc\internal\dllinfo.h">
+          </File>
+        </Filter>
+      </Filter>
+    </Filter>
+    <Filter Name="source" Filter="">
+      <Filter Name="cmn" Filter="">
+        <File RelativePath="..\..\..\..\..\..\EAWebKitSupportPackages\PPMallocEAWebKit\local\source\cmn\EAStackAllocator.cpp">
+          <FileConfiguration Name="pc-vc-dev-opt|Win32">
+            <Tool Name="VCCLCompilerTool" ObjectFile="PPMallocEAWebKit\vcproj\cmn\EAStackAllocator.cpp.obj" />
+          </FileConfiguration>
+        </File>
+      </Filter>
+    </Filter>
+  </Files>
+  <Globals>
+    <Global Name="vc-compiler" Value="$(VSInstallDir)\VC\BIN\cl.exe" />
+    <Global Name="vc-linker" Value="$(VSInstallDir)\VC\BIN\link.exe" />
+    <Global Name="vc-asm" Value="$(VSInstallDir)\VC\BIN\ml.exe" />
+    <Global Name="vc-librarian" Value="$(VSInstallDir)\VC\BIN\lib.exe" />
+    <Global Name="vc-postlink.program" Value="$(WindowsSDKDir)\BIN\mt.exe" />
+    <Global Name="build.env.PATH" Value="$(VSInstallDir)\Common7\IDE" />
+    <Global Name="$(VSInstallDir)" Value="C:\Program Files\Microsoft Visual Studio 9.0" />
+    <Global Name="$(WindowsSDKDir)" Value="C:\packages\WindowsSDK\6.1.6001.18000\installed" />
+    <Global Name="$(DXSDK_DIR)" Value="C:\Program Files\Microsoft DirectX SDK (November 2008)" />
+  </Globals>
+</VisualStudioProject>

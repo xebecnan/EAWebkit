@@ -1,0 +1,394 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VisualStudioProject Version="9.00" Name="EATextEAWebKit" TargetFrameworkVersion="196613" Keyword="Win32Proj" ProjectGUID="{8D18311A-510E-B900-8D5B-017215BB9F76}" ProjectType="Visual C++">
+  <Platforms>
+    <Platform Name="Win32" />
+  </Platforms>
+  <ToolFiles>
+    <DefaultToolFile FileName="masm.rules" />
+  </ToolFiles>
+  <Configurations>
+    <Configuration Name="pc-vc-dev-debug|Win32" OutputDirectory="pc-vc-dev-debug\build\EATextEAWebKit" IntermediateDirectory="pc-vc-dev-debug\build\EATextEAWebKit\vcproj" CharacterSet="2" ConfigurationType="4">
+      <Tool Name="VCPreBuildEventTool" />
+      <Tool Name="VCCustomBuildTool" />
+      <Tool Name="MASM" />
+      <Tool Name="VCXMLDataGeneratorTool" />
+      <Tool Name="VCWebServiceProxyGeneratorTool" />
+      <Tool Name="VCMIDLTool" />
+      <Tool Name="VCCLCompilerTool" PreprocessorDefinitions="WIN32;EA_DEBUG;_DEBUG;_SECURE_SCL=1;UTF_USE_EAASSERT=1;ENABLE_NON_RAM_STREAM=1;EATEXT_USE_FREETYPE=1;EATEXT_BITMAP_USE_EAGIMEX=0;_WIN32_WINNT=0x0501;WINVER=0x0501;_WIN32_IE=0x0501" AdditionalIncludeDirectories="&quot;..\..\..\..\EAWebKitSupportPackages\EATextEAWebKit\local\include&quot;;&quot;..\..\..\..\EAWebKitSupportPackages\EATextEAWebKit\local\source&quot;;&quot;..\..\..\..\EAWebKitSupportPackages\EABaseEAWebKit\local\include\Common&quot;;&quot;..\..\..\..\EAWebKitSupportPackages\coreallocatorEAWebKit\local\include&quot;;&quot;..\..\..\..\EAWebKitSupportPackages\EASTLEAWebKit\local\include&quot;;&quot;..\..\..\..\EAWebKitSupportPackages\PPMallocEAWebKit\local\include&quot;;&quot;..\..\..\..\EAWebKitSupportPackages\PPMallocEAWebKit\local\Extras&quot;;&quot;..\..\..\..\EAWebKitSupportPackages\EAAssertEAWebKit\local\include&quot;;&quot;..\..\..\..\EAWebKitSupportPackages\EAIOEAWebKit\local\include&quot;;&quot;..\..\..\..\EAWebKitSupportPackages\EAIOEAWebKit\local\include\EAIO\Wii&quot;;&quot;$(DXSDK_DIR)\include&quot;;&quot;..\..\..\..\EAWebKitSupportPackages\FreeTypeEAWebKit\local\freetype-2.3.9\include&quot;;&quot;$(VSInstallDir)\VC\ATLMFC\INCLUDE&quot;;&quot;$(VSInstallDir)\VC\INCLUDE&quot;;&quot;$(WindowsSDKDir)\include&quot;;&quot;$(VSInstallDir)\SDK\v2.0\include&quot;;&quot;$(VSInstallDir)\INCLUDE&quot;" AdditionalOptions="-Wall " MinimalRebuild="FALSE" BufferSecurityCheck="FALSE" Optimization="0" CompileOnly="TRUE" BasicRuntimeChecks="3" WarnAsError="TRUE" CompileAs="0" RuntimeLibrary="3" SuppressStartupBanner="TRUE" DebugInformationFormat="3" DisableSpecificWarnings="4365; 4548; 4619; 4530; 4217; 4005; 4061; 4062; 4100; 4324; 4619; 4514; 4640; 4668; 4710; 4711; 4738; 4820; 4826; 4819; 4826; 4692; 4996; " WarningLevel="4" ForceConformanceInForLoopScope="TRUE" ExceptionHandling="0" RuntimeTypeInfo="FALSE" ProgramDataBaseFileName="pc-vc-dev-debug\lib\EATextEAWebKit.pdb" />
+      <Tool Name="VCLibrarianTool" OutputFile="pc-vc-dev-debug\lib\EATextEAWebKit.lib" AdditionalDependencies="" SuppressStartupBanner="TRUE" />
+      <Tool Name="VCManifestTool" OutputManifestFile="pc-vc-dev-debug\EATextEAWebKit.embed.manifest" ManifestResourceFile="pc-vc-dev-debug\EATextEAWebKit.embed.manifest.res" />
+      <Tool Name="VCManagedResourceCompilerTool" />
+      <Tool Name="VCResourceCompilerTool" AdditionalIncludeDirectories="&quot;..\..\..\..\EAWebKitSupportPackages\EATextEAWebKit\local\include&quot;;&quot;..\..\..\..\EAWebKitSupportPackages\EATextEAWebKit\local\source&quot;;&quot;..\..\..\..\EAWebKitSupportPackages\EABaseEAWebKit\local\include\Common&quot;;&quot;..\..\..\..\EAWebKitSupportPackages\coreallocatorEAWebKit\local\include&quot;;&quot;..\..\..\..\EAWebKitSupportPackages\EASTLEAWebKit\local\include&quot;;&quot;..\..\..\..\EAWebKitSupportPackages\PPMallocEAWebKit\local\include&quot;;&quot;..\..\..\..\EAWebKitSupportPackages\PPMallocEAWebKit\local\Extras&quot;;&quot;..\..\..\..\EAWebKitSupportPackages\EAAssertEAWebKit\local\include&quot;;&quot;..\..\..\..\EAWebKitSupportPackages\EAIOEAWebKit\local\include&quot;;&quot;..\..\..\..\EAWebKitSupportPackages\EAIOEAWebKit\local\include\EAIO\Wii&quot;;&quot;$(DXSDK_DIR)\include&quot;;&quot;..\..\..\..\EAWebKitSupportPackages\FreeTypeEAWebKit\local\freetype-2.3.9\include&quot;;&quot;$(VSInstallDir)\VC\ATLMFC\INCLUDE&quot;;&quot;$(VSInstallDir)\VC\INCLUDE&quot;;&quot;$(WindowsSDKDir)\include&quot;;&quot;$(VSInstallDir)\SDK\v2.0\include&quot;;&quot;$(VSInstallDir)\INCLUDE&quot;" />
+      <Tool Name="VCPreLinkEventTool" />
+      <Tool Name="VCALinkTool" />
+      <Tool Name="VCXDCMakeTool" />
+      <Tool Name="VCBscMakeTool" />
+      <Tool Name="VCFxCopTool" />
+      <Tool Name="VCPostBuildEventTool" />
+    </Configuration>
+    <Configuration Name="pc-vc-dev-opt|Win32" OutputDirectory="pc-vc-dev-opt\build\EATextEAWebKit" IntermediateDirectory="pc-vc-dev-opt\build\EATextEAWebKit\vcproj" CharacterSet="2" ConfigurationType="4">
+      <Tool Name="VCPreBuildEventTool" />
+      <Tool Name="VCCustomBuildTool" />
+      <Tool Name="MASM" />
+      <Tool Name="VCXMLDataGeneratorTool" />
+      <Tool Name="VCWebServiceProxyGeneratorTool" />
+      <Tool Name="VCMIDLTool" />
+      <Tool Name="VCCLCompilerTool" PreprocessorDefinitions="WIN32;NDEBUG;_SECURE_SCL=0;UTF_USE_EAASSERT=1;ENABLE_NON_RAM_STREAM=1;EATEXT_USE_FREETYPE=1;EATEXT_BITMAP_USE_EAGIMEX=0;_WIN32_WINNT=0x0501;WINVER=0x0501;_WIN32_IE=0x0501" AdditionalIncludeDirectories="&quot;..\..\..\..\EAWebKitSupportPackages\EATextEAWebKit\local\include&quot;;&quot;..\..\..\..\EAWebKitSupportPackages\EATextEAWebKit\local\source&quot;;&quot;..\..\..\..\EAWebKitSupportPackages\EABaseEAWebKit\local\include\Common&quot;;&quot;..\..\..\..\EAWebKitSupportPackages\coreallocatorEAWebKit\local\include&quot;;&quot;..\..\..\..\EAWebKitSupportPackages\EASTLEAWebKit\local\include&quot;;&quot;..\..\..\..\EAWebKitSupportPackages\PPMallocEAWebKit\local\include&quot;;&quot;..\..\..\..\EAWebKitSupportPackages\PPMallocEAWebKit\local\Extras&quot;;&quot;..\..\..\..\EAWebKitSupportPackages\EAAssertEAWebKit\local\include&quot;;&quot;..\..\..\..\EAWebKitSupportPackages\EAIOEAWebKit\local\include&quot;;&quot;..\..\..\..\EAWebKitSupportPackages\EAIOEAWebKit\local\include\EAIO\Wii&quot;;&quot;$(DXSDK_DIR)\include&quot;;&quot;..\..\..\..\EAWebKitSupportPackages\FreeTypeEAWebKit\local\freetype-2.3.9\include&quot;;&quot;$(VSInstallDir)\VC\ATLMFC\INCLUDE&quot;;&quot;$(VSInstallDir)\VC\INCLUDE&quot;;&quot;$(WindowsSDKDir)\include&quot;;&quot;$(VSInstallDir)\SDK\v2.0\include&quot;;&quot;$(VSInstallDir)\INCLUDE&quot;" AdditionalOptions="-Wall " MinimalRebuild="FALSE" BufferSecurityCheck="FALSE" Optimization="2" CompileOnly="TRUE" WarnAsError="TRUE" CompileAs="0" RuntimeLibrary="2" SuppressStartupBanner="TRUE" DebugInformationFormat="3" DisableSpecificWarnings="4365; 4548; 4619; 4530; 4217; 4005; 4061; 4062; 4100; 4324; 4619; 4514; 4640; 4668; 4710; 4711; 4738; 4820; 4826; 4819; 4826; 4692; 4996; " WarningLevel="4" ForceConformanceInForLoopScope="TRUE" ExceptionHandling="0" RuntimeTypeInfo="FALSE" ProgramDataBaseFileName="pc-vc-dev-opt\lib\EATextEAWebKit.pdb" />
+      <Tool Name="VCLibrarianTool" OutputFile="pc-vc-dev-opt\lib\EATextEAWebKit.lib" AdditionalDependencies="" SuppressStartupBanner="TRUE" />
+      <Tool Name="VCManifestTool" OutputManifestFile="pc-vc-dev-opt\EATextEAWebKit.embed.manifest" ManifestResourceFile="pc-vc-dev-opt\EATextEAWebKit.embed.manifest.res" />
+      <Tool Name="VCManagedResourceCompilerTool" />
+      <Tool Name="VCResourceCompilerTool" AdditionalIncludeDirectories="&quot;..\..\..\..\EAWebKitSupportPackages\EATextEAWebKit\local\include&quot;;&quot;..\..\..\..\EAWebKitSupportPackages\EATextEAWebKit\local\source&quot;;&quot;..\..\..\..\EAWebKitSupportPackages\EABaseEAWebKit\local\include\Common&quot;;&quot;..\..\..\..\EAWebKitSupportPackages\coreallocatorEAWebKit\local\include&quot;;&quot;..\..\..\..\EAWebKitSupportPackages\EASTLEAWebKit\local\include&quot;;&quot;..\..\..\..\EAWebKitSupportPackages\PPMallocEAWebKit\local\include&quot;;&quot;..\..\..\..\EAWebKitSupportPackages\PPMallocEAWebKit\local\Extras&quot;;&quot;..\..\..\..\EAWebKitSupportPackages\EAAssertEAWebKit\local\include&quot;;&quot;..\..\..\..\EAWebKitSupportPackages\EAIOEAWebKit\local\include&quot;;&quot;..\..\..\..\EAWebKitSupportPackages\EAIOEAWebKit\local\include\EAIO\Wii&quot;;&quot;$(DXSDK_DIR)\include&quot;;&quot;..\..\..\..\EAWebKitSupportPackages\FreeTypeEAWebKit\local\freetype-2.3.9\include&quot;;&quot;$(VSInstallDir)\VC\ATLMFC\INCLUDE&quot;;&quot;$(VSInstallDir)\VC\INCLUDE&quot;;&quot;$(WindowsSDKDir)\include&quot;;&quot;$(VSInstallDir)\SDK\v2.0\include&quot;;&quot;$(VSInstallDir)\INCLUDE&quot;" />
+      <Tool Name="VCPreLinkEventTool" />
+      <Tool Name="VCALinkTool" />
+      <Tool Name="VCXDCMakeTool" />
+      <Tool Name="VCBscMakeTool" />
+      <Tool Name="VCFxCopTool" />
+      <Tool Name="VCPostBuildEventTool" />
+    </Configuration>
+  </Configurations>
+  <References>
+  </References>
+  <Files>
+    <Filter Name="include" Filter="">
+      <Filter Name="EAText" Filter="">
+        <File RelativePath="..\..\..\..\EAWebKitSupportPackages\EATextEAWebKit\local\include\EAText\EAText.h">
+        </File>
+        <File RelativePath="..\..\..\..\EAWebKitSupportPackages\EATextEAWebKit\local\include\EAText\EATextBaseline.h">
+        </File>
+        <File RelativePath="..\..\..\..\EAWebKitSupportPackages\EATextEAWebKit\local\include\EAText\EATextBmpFont.h">
+        </File>
+        <File RelativePath="..\..\..\..\EAWebKitSupportPackages\EATextEAWebKit\local\include\EAText\EATextBreak.h">
+        </File>
+        <File RelativePath="..\..\..\..\EAWebKitSupportPackages\EATextEAWebKit\local\include\EAText\EATextCache.h">
+        </File>
+        <File RelativePath="..\..\..\..\EAWebKitSupportPackages\EATextEAWebKit\local\include\EAText\EATextCollation.h">
+        </File>
+        <File RelativePath="..\..\..\..\EAWebKitSupportPackages\EATextEAWebKit\local\include\EAText\EATextCompression.h">
+        </File>
+        <File RelativePath="..\..\..\..\EAWebKitSupportPackages\EATextEAWebKit\local\include\EAText\EATextConfig.h">
+        </File>
+        <File RelativePath="..\..\..\..\EAWebKitSupportPackages\EATextEAWebKit\local\include\EAText\EATextDebugFont.h">
+        </File>
+        <File RelativePath="..\..\..\..\EAWebKitSupportPackages\EATextEAWebKit\local\include\EAText\EATextEffects.h">
+        </File>
+        <File RelativePath="..\..\..\..\EAWebKitSupportPackages\EATextEAWebKit\local\include\EAText\EATextFont.h">
+        </File>
+        <File RelativePath="..\..\..\..\EAWebKitSupportPackages\EATextEAWebKit\local\include\EAText\EATextFontServer.h">
+        </File>
+        <File RelativePath="..\..\..\..\EAWebKitSupportPackages\EATextEAWebKit\local\include\EAText\EATextIterator.h">
+        </File>
+        <File RelativePath="..\..\..\..\EAWebKitSupportPackages\EATextEAWebKit\local\include\EAText\EATextLayout.h">
+        </File>
+        <File RelativePath="..\..\..\..\EAWebKitSupportPackages\EATextEAWebKit\local\include\EAText\EATextOutlineFont.h">
+        </File>
+        <File RelativePath="..\..\..\..\EAWebKitSupportPackages\EATextEAWebKit\local\include\EAText\EATextPolygonFont.h">
+        </File>
+        <File RelativePath="..\..\..\..\EAWebKitSupportPackages\EATextEAWebKit\local\include\EAText\EATextScript.h">
+        </File>
+        <File RelativePath="..\..\..\..\EAWebKitSupportPackages\EATextEAWebKit\local\include\EAText\EATextStyle.h">
+        </File>
+        <File RelativePath="..\..\..\..\EAWebKitSupportPackages\EATextEAWebKit\local\include\EAText\EATextStyleReader.h">
+        </File>
+        <File RelativePath="..\..\..\..\EAWebKitSupportPackages\EATextEAWebKit\local\include\EAText\EATextTypesetter.h">
+        </File>
+        <File RelativePath="..\..\..\..\EAWebKitSupportPackages\EATextEAWebKit\local\include\EAText\EATextUnicode.h">
+        </File>
+        <Filter Name="internal" Filter="">
+          <File RelativePath="..\..\..\..\EAWebKitSupportPackages\EATextEAWebKit\local\include\EAText\internal\EALexer.h">
+          </File>
+          <File RelativePath="..\..\..\..\EAWebKitSupportPackages\EATextEAWebKit\local\include\EAText\internal\EAStackAllocatorNew.h">
+          </File>
+          <File RelativePath="..\..\..\..\EAWebKitSupportPackages\EATextEAWebKit\local\include\EAText\internal\EATextBidi.h">
+          </File>
+          <File RelativePath="..\..\..\..\EAWebKitSupportPackages\EATextEAWebKit\local\include\EAText\internal\EATextBitmap.h">
+          </File>
+          <File RelativePath="..\..\..\..\EAWebKitSupportPackages\EATextEAWebKit\local\include\EAText\internal\EATextCoreAllocatorNew.h">
+          </File>
+          <File RelativePath="..\..\..\..\EAWebKitSupportPackages\EATextEAWebKit\local\include\EAText\internal\EATextCoreAllocatorStack.h">
+          </File>
+          <File RelativePath="..\..\..\..\EAWebKitSupportPackages\EATextEAWebKit\local\include\EAText\internal\EATextOpenType.h">
+          </File>
+          <File RelativePath="..\..\..\..\EAWebKitSupportPackages\EATextEAWebKit\local\include\EAText\internal\EATextRefCount.h">
+          </File>
+          <File RelativePath="..\..\..\..\EAWebKitSupportPackages\EATextEAWebKit\local\include\EAText\internal\EATextScriptArabic.h">
+          </File>
+          <File RelativePath="..\..\..\..\EAWebKitSupportPackages\EATextEAWebKit\local\include\EAText\internal\EATextScriptHangul.h">
+          </File>
+          <File RelativePath="..\..\..\..\EAWebKitSupportPackages\EATextEAWebKit\local\include\EAText\internal\EATextScriptHebrew.h">
+          </File>
+          <File RelativePath="..\..\..\..\EAWebKitSupportPackages\EATextEAWebKit\local\include\EAText\internal\EATextScriptThai.h">
+          </File>
+          <File RelativePath="..\..\..\..\EAWebKitSupportPackages\EATextEAWebKit\local\include\EAText\internal\EATextSquish.h">
+          </File>
+          <File RelativePath="..\..\..\..\EAWebKitSupportPackages\EATextEAWebKit\local\include\EAText\internal\EATextStream.h">
+          </File>
+          <File RelativePath="..\..\..\..\EAWebKitSupportPackages\EATextEAWebKit\local\include\EAText\internal\StdC.h">
+          </File>
+        </Filter>
+      </Filter>
+    </Filter>
+    <Filter Name="source" Filter="">
+      <File RelativePath="..\..\..\..\EAWebKitSupportPackages\EATextEAWebKit\local\source\EAText.cpp">
+        <FileConfiguration Name="pc-vc-dev-debug|Win32">
+          <Tool Name="VCCLCompilerTool" ObjectFile="pc-vc-dev-debug\build\EATextEAWebKit\vcproj\source\EAText.cpp.obj" />
+        </FileConfiguration>
+        <FileConfiguration Name="pc-vc-dev-opt|Win32">
+          <Tool Name="VCCLCompilerTool" ObjectFile="pc-vc-dev-opt\build\EATextEAWebKit\vcproj\source\EAText.cpp.obj" />
+        </FileConfiguration>
+      </File>
+      <File RelativePath="..\..\..\..\EAWebKitSupportPackages\EATextEAWebKit\local\source\EATextBaseline.cpp">
+        <FileConfiguration Name="pc-vc-dev-debug|Win32">
+          <Tool Name="VCCLCompilerTool" ObjectFile="pc-vc-dev-debug\build\EATextEAWebKit\vcproj\source\EATextBaseline.cpp.obj" />
+        </FileConfiguration>
+        <FileConfiguration Name="pc-vc-dev-opt|Win32">
+          <Tool Name="VCCLCompilerTool" ObjectFile="pc-vc-dev-opt\build\EATextEAWebKit\vcproj\source\EATextBaseline.cpp.obj" />
+        </FileConfiguration>
+      </File>
+      <File RelativePath="..\..\..\..\EAWebKitSupportPackages\EATextEAWebKit\local\source\EATextBmpFont.cpp">
+        <FileConfiguration Name="pc-vc-dev-debug|Win32">
+          <Tool Name="VCCLCompilerTool" ObjectFile="pc-vc-dev-debug\build\EATextEAWebKit\vcproj\source\EATextBmpFont.cpp.obj" />
+        </FileConfiguration>
+        <FileConfiguration Name="pc-vc-dev-opt|Win32">
+          <Tool Name="VCCLCompilerTool" ObjectFile="pc-vc-dev-opt\build\EATextEAWebKit\vcproj\source\EATextBmpFont.cpp.obj" />
+        </FileConfiguration>
+      </File>
+      <File RelativePath="..\..\..\..\EAWebKitSupportPackages\EATextEAWebKit\local\source\EATextBreak.cpp">
+        <FileConfiguration Name="pc-vc-dev-debug|Win32">
+          <Tool Name="VCCLCompilerTool" ObjectFile="pc-vc-dev-debug\build\EATextEAWebKit\vcproj\source\EATextBreak.cpp.obj" />
+        </FileConfiguration>
+        <FileConfiguration Name="pc-vc-dev-opt|Win32">
+          <Tool Name="VCCLCompilerTool" ObjectFile="pc-vc-dev-opt\build\EATextEAWebKit\vcproj\source\EATextBreak.cpp.obj" />
+        </FileConfiguration>
+      </File>
+      <File RelativePath="..\..\..\..\EAWebKitSupportPackages\EATextEAWebKit\local\source\EATextCache.cpp">
+        <FileConfiguration Name="pc-vc-dev-debug|Win32">
+          <Tool Name="VCCLCompilerTool" ObjectFile="pc-vc-dev-debug\build\EATextEAWebKit\vcproj\source\EATextCache.cpp.obj" />
+        </FileConfiguration>
+        <FileConfiguration Name="pc-vc-dev-opt|Win32">
+          <Tool Name="VCCLCompilerTool" ObjectFile="pc-vc-dev-opt\build\EATextEAWebKit\vcproj\source\EATextCache.cpp.obj" />
+        </FileConfiguration>
+      </File>
+      <File RelativePath="..\..\..\..\EAWebKitSupportPackages\EATextEAWebKit\local\source\EATextCollation.cpp">
+        <FileConfiguration Name="pc-vc-dev-debug|Win32">
+          <Tool Name="VCCLCompilerTool" ObjectFile="pc-vc-dev-debug\build\EATextEAWebKit\vcproj\source\EATextCollation.cpp.obj" />
+        </FileConfiguration>
+        <FileConfiguration Name="pc-vc-dev-opt|Win32">
+          <Tool Name="VCCLCompilerTool" ObjectFile="pc-vc-dev-opt\build\EATextEAWebKit\vcproj\source\EATextCollation.cpp.obj" />
+        </FileConfiguration>
+      </File>
+      <File RelativePath="..\..\..\..\EAWebKitSupportPackages\EATextEAWebKit\local\source\EATextCompression.cpp">
+        <FileConfiguration Name="pc-vc-dev-debug|Win32">
+          <Tool Name="VCCLCompilerTool" ObjectFile="pc-vc-dev-debug\build\EATextEAWebKit\vcproj\source\EATextCompression.cpp.obj" />
+        </FileConfiguration>
+        <FileConfiguration Name="pc-vc-dev-opt|Win32">
+          <Tool Name="VCCLCompilerTool" ObjectFile="pc-vc-dev-opt\build\EATextEAWebKit\vcproj\source\EATextCompression.cpp.obj" />
+        </FileConfiguration>
+      </File>
+      <File RelativePath="..\..\..\..\EAWebKitSupportPackages\EATextEAWebKit\local\source\EATextDebugFont.cpp">
+        <FileConfiguration Name="pc-vc-dev-debug|Win32">
+          <Tool Name="VCCLCompilerTool" ObjectFile="pc-vc-dev-debug\build\EATextEAWebKit\vcproj\source\EATextDebugFont.cpp.obj" />
+        </FileConfiguration>
+        <FileConfiguration Name="pc-vc-dev-opt|Win32">
+          <Tool Name="VCCLCompilerTool" ObjectFile="pc-vc-dev-opt\build\EATextEAWebKit\vcproj\source\EATextDebugFont.cpp.obj" />
+        </FileConfiguration>
+      </File>
+      <File RelativePath="..\..\..\..\EAWebKitSupportPackages\EATextEAWebKit\local\source\EATextEffects.cpp">
+        <FileConfiguration Name="pc-vc-dev-debug|Win32">
+          <Tool Name="VCCLCompilerTool" ObjectFile="pc-vc-dev-debug\build\EATextEAWebKit\vcproj\source\EATextEffects.cpp.obj" />
+        </FileConfiguration>
+        <FileConfiguration Name="pc-vc-dev-opt|Win32">
+          <Tool Name="VCCLCompilerTool" ObjectFile="pc-vc-dev-opt\build\EATextEAWebKit\vcproj\source\EATextEffects.cpp.obj" />
+        </FileConfiguration>
+      </File>
+      <File RelativePath="..\..\..\..\EAWebKitSupportPackages\EATextEAWebKit\local\source\EATextFont.cpp">
+        <FileConfiguration Name="pc-vc-dev-debug|Win32">
+          <Tool Name="VCCLCompilerTool" ObjectFile="pc-vc-dev-debug\build\EATextEAWebKit\vcproj\source\EATextFont.cpp.obj" />
+        </FileConfiguration>
+        <FileConfiguration Name="pc-vc-dev-opt|Win32">
+          <Tool Name="VCCLCompilerTool" ObjectFile="pc-vc-dev-opt\build\EATextEAWebKit\vcproj\source\EATextFont.cpp.obj" />
+        </FileConfiguration>
+      </File>
+      <File RelativePath="..\..\..\..\EAWebKitSupportPackages\EATextEAWebKit\local\source\EATextFontServer.cpp">
+        <FileConfiguration Name="pc-vc-dev-debug|Win32">
+          <Tool Name="VCCLCompilerTool" ObjectFile="pc-vc-dev-debug\build\EATextEAWebKit\vcproj\source\EATextFontServer.cpp.obj" />
+        </FileConfiguration>
+        <FileConfiguration Name="pc-vc-dev-opt|Win32">
+          <Tool Name="VCCLCompilerTool" ObjectFile="pc-vc-dev-opt\build\EATextEAWebKit\vcproj\source\EATextFontServer.cpp.obj" />
+        </FileConfiguration>
+      </File>
+      <File RelativePath="..\..\..\..\EAWebKitSupportPackages\EATextEAWebKit\local\source\EATextLayout.cpp">
+        <FileConfiguration Name="pc-vc-dev-debug|Win32">
+          <Tool Name="VCCLCompilerTool" ObjectFile="pc-vc-dev-debug\build\EATextEAWebKit\vcproj\source\EATextLayout.cpp.obj" />
+        </FileConfiguration>
+        <FileConfiguration Name="pc-vc-dev-opt|Win32">
+          <Tool Name="VCCLCompilerTool" ObjectFile="pc-vc-dev-opt\build\EATextEAWebKit\vcproj\source\EATextLayout.cpp.obj" />
+        </FileConfiguration>
+      </File>
+      <File RelativePath="..\..\..\..\EAWebKitSupportPackages\EATextEAWebKit\local\source\EATextOutlineFont.cpp">
+        <FileConfiguration Name="pc-vc-dev-debug|Win32">
+          <Tool Name="VCCLCompilerTool" ObjectFile="pc-vc-dev-debug\build\EATextEAWebKit\vcproj\source\EATextOutlineFont.cpp.obj" />
+        </FileConfiguration>
+        <FileConfiguration Name="pc-vc-dev-opt|Win32">
+          <Tool Name="VCCLCompilerTool" ObjectFile="pc-vc-dev-opt\build\EATextEAWebKit\vcproj\source\EATextOutlineFont.cpp.obj" />
+        </FileConfiguration>
+      </File>
+      <File RelativePath="..\..\..\..\EAWebKitSupportPackages\EATextEAWebKit\local\source\EATextPolygonFont.cpp">
+        <FileConfiguration Name="pc-vc-dev-debug|Win32">
+          <Tool Name="VCCLCompilerTool" ObjectFile="pc-vc-dev-debug\build\EATextEAWebKit\vcproj\source\EATextPolygonFont.cpp.obj" />
+        </FileConfiguration>
+        <FileConfiguration Name="pc-vc-dev-opt|Win32">
+          <Tool Name="VCCLCompilerTool" ObjectFile="pc-vc-dev-opt\build\EATextEAWebKit\vcproj\source\EATextPolygonFont.cpp.obj" />
+        </FileConfiguration>
+      </File>
+      <File RelativePath="..\..\..\..\EAWebKitSupportPackages\EATextEAWebKit\local\source\EATextScript.cpp">
+        <FileConfiguration Name="pc-vc-dev-debug|Win32">
+          <Tool Name="VCCLCompilerTool" ObjectFile="pc-vc-dev-debug\build\EATextEAWebKit\vcproj\source\EATextScript.cpp.obj" />
+        </FileConfiguration>
+        <FileConfiguration Name="pc-vc-dev-opt|Win32">
+          <Tool Name="VCCLCompilerTool" ObjectFile="pc-vc-dev-opt\build\EATextEAWebKit\vcproj\source\EATextScript.cpp.obj" />
+        </FileConfiguration>
+      </File>
+      <File RelativePath="..\..\..\..\EAWebKitSupportPackages\EATextEAWebKit\local\source\EATextStyle.cpp">
+        <FileConfiguration Name="pc-vc-dev-debug|Win32">
+          <Tool Name="VCCLCompilerTool" ObjectFile="pc-vc-dev-debug\build\EATextEAWebKit\vcproj\source\EATextStyle.cpp.obj" />
+        </FileConfiguration>
+        <FileConfiguration Name="pc-vc-dev-opt|Win32">
+          <Tool Name="VCCLCompilerTool" ObjectFile="pc-vc-dev-opt\build\EATextEAWebKit\vcproj\source\EATextStyle.cpp.obj" />
+        </FileConfiguration>
+      </File>
+      <File RelativePath="..\..\..\..\EAWebKitSupportPackages\EATextEAWebKit\local\source\EATextStyleReader.cpp">
+        <FileConfiguration Name="pc-vc-dev-debug|Win32">
+          <Tool Name="VCCLCompilerTool" ObjectFile="pc-vc-dev-debug\build\EATextEAWebKit\vcproj\source\EATextStyleReader.cpp.obj" />
+        </FileConfiguration>
+        <FileConfiguration Name="pc-vc-dev-opt|Win32">
+          <Tool Name="VCCLCompilerTool" ObjectFile="pc-vc-dev-opt\build\EATextEAWebKit\vcproj\source\EATextStyleReader.cpp.obj" />
+        </FileConfiguration>
+      </File>
+      <File RelativePath="..\..\..\..\EAWebKitSupportPackages\EATextEAWebKit\local\source\EATextTypesetter.cpp">
+        <FileConfiguration Name="pc-vc-dev-debug|Win32">
+          <Tool Name="VCCLCompilerTool" ObjectFile="pc-vc-dev-debug\build\EATextEAWebKit\vcproj\source\EATextTypesetter.cpp.obj" />
+        </FileConfiguration>
+        <FileConfiguration Name="pc-vc-dev-opt|Win32">
+          <Tool Name="VCCLCompilerTool" ObjectFile="pc-vc-dev-opt\build\EATextEAWebKit\vcproj\source\EATextTypesetter.cpp.obj" />
+        </FileConfiguration>
+      </File>
+      <File RelativePath="..\..\..\..\EAWebKitSupportPackages\EATextEAWebKit\local\source\EATextUnicode.cpp">
+        <FileConfiguration Name="pc-vc-dev-debug|Win32">
+          <Tool Name="VCCLCompilerTool" ObjectFile="pc-vc-dev-debug\build\EATextEAWebKit\vcproj\source\EATextUnicode.cpp.obj" />
+        </FileConfiguration>
+        <FileConfiguration Name="pc-vc-dev-opt|Win32">
+          <Tool Name="VCCLCompilerTool" ObjectFile="pc-vc-dev-opt\build\EATextEAWebKit\vcproj\source\EATextUnicode.cpp.obj" />
+        </FileConfiguration>
+      </File>
+      <Filter Name="internal" Filter="">
+        <File RelativePath="..\..\..\..\EAWebKitSupportPackages\EATextEAWebKit\local\source\internal\EATextBidi.cpp">
+          <FileConfiguration Name="pc-vc-dev-debug|Win32">
+            <Tool Name="VCCLCompilerTool" ObjectFile="pc-vc-dev-debug\build\EATextEAWebKit\vcproj\source\internal\EATextBidi.cpp.obj" />
+          </FileConfiguration>
+          <FileConfiguration Name="pc-vc-dev-opt|Win32">
+            <Tool Name="VCCLCompilerTool" ObjectFile="pc-vc-dev-opt\build\EATextEAWebKit\vcproj\source\internal\EATextBidi.cpp.obj" />
+          </FileConfiguration>
+        </File>
+        <File RelativePath="..\..\..\..\EAWebKitSupportPackages\EATextEAWebKit\local\source\internal\EATextBitmap.cpp">
+          <FileConfiguration Name="pc-vc-dev-debug|Win32">
+            <Tool Name="VCCLCompilerTool" ObjectFile="pc-vc-dev-debug\build\EATextEAWebKit\vcproj\source\internal\EATextBitmap.cpp.obj" />
+          </FileConfiguration>
+          <FileConfiguration Name="pc-vc-dev-opt|Win32">
+            <Tool Name="VCCLCompilerTool" ObjectFile="pc-vc-dev-opt\build\EATextEAWebKit\vcproj\source\internal\EATextBitmap.cpp.obj" />
+          </FileConfiguration>
+        </File>
+        <File RelativePath="..\..\..\..\EAWebKitSupportPackages\EATextEAWebKit\local\source\internal\EATextOpenType.cpp">
+          <FileConfiguration Name="pc-vc-dev-debug|Win32">
+            <Tool Name="VCCLCompilerTool" ObjectFile="pc-vc-dev-debug\build\EATextEAWebKit\vcproj\source\internal\EATextOpenType.cpp.obj" />
+          </FileConfiguration>
+          <FileConfiguration Name="pc-vc-dev-opt|Win32">
+            <Tool Name="VCCLCompilerTool" ObjectFile="pc-vc-dev-opt\build\EATextEAWebKit\vcproj\source\internal\EATextOpenType.cpp.obj" />
+          </FileConfiguration>
+        </File>
+        <File RelativePath="..\..\..\..\EAWebKitSupportPackages\EATextEAWebKit\local\source\internal\EATextShapeArabic.cpp">
+          <FileConfiguration Name="pc-vc-dev-debug|Win32">
+            <Tool Name="VCCLCompilerTool" ObjectFile="pc-vc-dev-debug\build\EATextEAWebKit\vcproj\source\internal\EATextShapeArabic.cpp.obj" />
+          </FileConfiguration>
+          <FileConfiguration Name="pc-vc-dev-opt|Win32">
+            <Tool Name="VCCLCompilerTool" ObjectFile="pc-vc-dev-opt\build\EATextEAWebKit\vcproj\source\internal\EATextShapeArabic.cpp.obj" />
+          </FileConfiguration>
+        </File>
+        <File RelativePath="..\..\..\..\EAWebKitSupportPackages\EATextEAWebKit\local\source\internal\EATextShapeGeneral.cpp">
+          <FileConfiguration Name="pc-vc-dev-debug|Win32">
+            <Tool Name="VCCLCompilerTool" ObjectFile="pc-vc-dev-debug\build\EATextEAWebKit\vcproj\source\internal\EATextShapeGeneral.cpp.obj" />
+          </FileConfiguration>
+          <FileConfiguration Name="pc-vc-dev-opt|Win32">
+            <Tool Name="VCCLCompilerTool" ObjectFile="pc-vc-dev-opt\build\EATextEAWebKit\vcproj\source\internal\EATextShapeGeneral.cpp.obj" />
+          </FileConfiguration>
+        </File>
+        <File RelativePath="..\..\..\..\EAWebKitSupportPackages\EATextEAWebKit\local\source\internal\EATextShapeHangul.cpp">
+          <FileConfiguration Name="pc-vc-dev-debug|Win32">
+            <Tool Name="VCCLCompilerTool" ObjectFile="pc-vc-dev-debug\build\EATextEAWebKit\vcproj\source\internal\EATextShapeHangul.cpp.obj" />
+          </FileConfiguration>
+          <FileConfiguration Name="pc-vc-dev-opt|Win32">
+            <Tool Name="VCCLCompilerTool" ObjectFile="pc-vc-dev-opt\build\EATextEAWebKit\vcproj\source\internal\EATextShapeHangul.cpp.obj" />
+          </FileConfiguration>
+        </File>
+        <File RelativePath="..\..\..\..\EAWebKitSupportPackages\EATextEAWebKit\local\source\internal\EATextShapeHebrew.cpp">
+          <FileConfiguration Name="pc-vc-dev-debug|Win32">
+            <Tool Name="VCCLCompilerTool" ObjectFile="pc-vc-dev-debug\build\EATextEAWebKit\vcproj\source\internal\EATextShapeHebrew.cpp.obj" />
+          </FileConfiguration>
+          <FileConfiguration Name="pc-vc-dev-opt|Win32">
+            <Tool Name="VCCLCompilerTool" ObjectFile="pc-vc-dev-opt\build\EATextEAWebKit\vcproj\source\internal\EATextShapeHebrew.cpp.obj" />
+          </FileConfiguration>
+        </File>
+        <File RelativePath="..\..\..\..\EAWebKitSupportPackages\EATextEAWebKit\local\source\internal\EATextShapeIndic.cpp">
+          <FileConfiguration Name="pc-vc-dev-debug|Win32">
+            <Tool Name="VCCLCompilerTool" ObjectFile="pc-vc-dev-debug\build\EATextEAWebKit\vcproj\source\internal\EATextShapeIndic.cpp.obj" />
+          </FileConfiguration>
+          <FileConfiguration Name="pc-vc-dev-opt|Win32">
+            <Tool Name="VCCLCompilerTool" ObjectFile="pc-vc-dev-opt\build\EATextEAWebKit\vcproj\source\internal\EATextShapeIndic.cpp.obj" />
+          </FileConfiguration>
+        </File>
+        <File RelativePath="..\..\..\..\EAWebKitSupportPackages\EATextEAWebKit\local\source\internal\EATextShapeThai.cpp">
+          <FileConfiguration Name="pc-vc-dev-debug|Win32">
+            <Tool Name="VCCLCompilerTool" ObjectFile="pc-vc-dev-debug\build\EATextEAWebKit\vcproj\source\internal\EATextShapeThai.cpp.obj" />
+          </FileConfiguration>
+          <FileConfiguration Name="pc-vc-dev-opt|Win32">
+            <Tool Name="VCCLCompilerTool" ObjectFile="pc-vc-dev-opt\build\EATextEAWebKit\vcproj\source\internal\EATextShapeThai.cpp.obj" />
+          </FileConfiguration>
+        </File>
+        <File RelativePath="..\..\..\..\EAWebKitSupportPackages\EATextEAWebKit\local\source\internal\EATextSquish.cpp">
+          <FileConfiguration Name="pc-vc-dev-debug|Win32">
+            <Tool Name="VCCLCompilerTool" ObjectFile="pc-vc-dev-debug\build\EATextEAWebKit\vcproj\source\internal\EATextSquish.cpp.obj" />
+          </FileConfiguration>
+          <FileConfiguration Name="pc-vc-dev-opt|Win32">
+            <Tool Name="VCCLCompilerTool" ObjectFile="pc-vc-dev-opt\build\EATextEAWebKit\vcproj\source\internal\EATextSquish.cpp.obj" />
+          </FileConfiguration>
+        </File>
+        <File RelativePath="..\..\..\..\EAWebKitSupportPackages\EATextEAWebKit\local\source\internal\EATextStream.cpp">
+          <FileConfiguration Name="pc-vc-dev-debug|Win32">
+            <Tool Name="VCCLCompilerTool" ObjectFile="pc-vc-dev-debug\build\EATextEAWebKit\vcproj\source\internal\EATextStream.cpp.obj" />
+          </FileConfiguration>
+          <FileConfiguration Name="pc-vc-dev-opt|Win32">
+            <Tool Name="VCCLCompilerTool" ObjectFile="pc-vc-dev-opt\build\EATextEAWebKit\vcproj\source\internal\EATextStream.cpp.obj" />
+          </FileConfiguration>
+        </File>
+        <File RelativePath="..\..\..\..\EAWebKitSupportPackages\EATextEAWebKit\local\source\internal\StdC.cpp">
+          <FileConfiguration Name="pc-vc-dev-debug|Win32">
+            <Tool Name="VCCLCompilerTool" ObjectFile="pc-vc-dev-debug\build\EATextEAWebKit\vcproj\source\internal\StdC.cpp.obj" />
+          </FileConfiguration>
+          <FileConfiguration Name="pc-vc-dev-opt|Win32">
+            <Tool Name="VCCLCompilerTool" ObjectFile="pc-vc-dev-opt\build\EATextEAWebKit\vcproj\source\internal\StdC.cpp.obj" />
+          </FileConfiguration>
+        </File>
+      </Filter>
+    </Filter>
+  </Files>
+  <Globals>
+    <Global Name="vc-compiler" Value="$(VSInstallDir)\VC\BIN\cl.exe" />
+    <Global Name="vc-linker" Value="$(VSInstallDir)\VC\BIN\link.exe" />
+    <Global Name="vc-asm" Value="$(VSInstallDir)\VC\BIN\ml.exe" />
+    <Global Name="vc-librarian" Value="$(VSInstallDir)\VC\BIN\lib.exe" />
+    <Global Name="vc-postlink.program" Value="$(WindowsSDKDir)\BIN\mt.exe" />
+    <Global Name="build.env.PATH" Value="$(VSInstallDir)\Common7\IDE" />
+    <Global Name="$(VSInstallDir)" Value="C:\Program Files\Microsoft Visual Studio 9.0" />
+    <Global Name="$(WindowsSDKDir)" Value="C:\packages\WindowsSDK\6.1.6001.18000\installed" />
+    <Global Name="$(DXSDK_DIR)" Value="C:\Program Files\Microsoft DirectX SDK (November 2008)" />
+  </Globals>
+</VisualStudioProject>

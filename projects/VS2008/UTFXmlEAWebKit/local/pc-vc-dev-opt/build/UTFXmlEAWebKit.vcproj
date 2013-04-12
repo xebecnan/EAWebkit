@@ -1,0 +1,105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VisualStudioProject ProjectType="Visual C++" Version="9.00" Name="UTFXmlEAWebKit" ProjectGUID="{FC019A03-151E-13A3-FBEF-F672B5606B80}" Keyword="Win32Proj" TargetFrameworkVersion="196613">
+  <Platforms>
+    <Platform Name="Win32" />
+  </Platforms>
+  <ToolFiles />
+  <Configurations>
+    <Configuration Name="pc-vc-dev-opt|Win32" OutputDirectory="UTFXmlEAWebKit" IntermediateDirectory="UTFXmlEAWebKit\vcproj" CharacterSet="2" ConfigurationType="4">
+      <Tool Name="VCPreBuildEventTool" />
+      <Tool Name="VCCustomBuildTool" />
+      <Tool Name="MASM" />
+      <Tool Name="VCXMLDataGeneratorTool" />
+      <Tool Name="VCWebServiceProxyGeneratorTool" />
+      <Tool Name="VCMIDLTool" />
+      <Tool Name="VCCLCompilerTool" PreprocessorDefinitions="WIN32;NDEBUG;_SECURE_SCL=0;UTF_USE_EAASSERT=1;_WIN32_WINNT=0x0501;WINVER=0x0501;_WIN32_IE=0x0501" AdditionalIncludeDirectories="&quot;..\..\..\..\..\..\EAWebKitSupportPackages\UTFXmlEAWebKit\local\include&quot;;&quot;..\..\..\..\..\..\EAWebKitSupportPackages\coreallocatorEAWebKit\local\include&quot;;&quot;..\..\..\..\..\..\EAWebKitSupportPackages\EABaseEAWebKit\local\include\Common&quot;;&quot;..\..\..\..\..\..\EAWebKitSupportPackages\EASTLEAWebKit\local\include&quot;;&quot;..\..\..\..\..\..\EAWebKitSupportPackages\EAAssertEAWebKit\local\include&quot;;&quot;..\..\..\..\..\..\EAWebKitSupportPackages\EAIOEAWebKit\local\include&quot;;&quot;..\..\..\..\..\..\EAWebKitSupportPackages\EAIOEAWebKit\local\include\EAIO\Wii&quot;;&quot;$(VSInstallDir)\VC\ATLMFC\INCLUDE&quot;;&quot;$(VSInstallDir)\VC\INCLUDE&quot;;&quot;$(WindowsSDKDir)\include&quot;;&quot;$(VSInstallDir)\SDK\v2.0\include&quot;;&quot;$(VSInstallDir)\INCLUDE&quot;" AdditionalOptions="-Wall " MinimalRebuild="FALSE" BufferSecurityCheck="FALSE" Optimization="2" CompileOnly="TRUE" WarnAsError="FALSE" CompileAs="0" RuntimeLibrary="2" SuppressStartupBanner="TRUE" DebugInformationFormat="3" DisableSpecificWarnings="4061; 4062; 4100; 4324; 4619; 4514; 4640; 4668; 4710; 4711; 4738; 4820; 4826; 4819; 4826; 4692; 4996; " WarningLevel="4" ForceConformanceInForLoopScope="TRUE" ExceptionHandling="0" RuntimeTypeInfo="FALSE" ProgramDataBaseFileName="..\lib\UTFXmlEAWebKit.pdb" />
+      <Tool Name="VCLibrarianTool" OutputFile="&quot;..\lib\UTFXmlEAWebKit.lib&quot;" AdditionalDependencies="" SuppressStartupBanner="TRUE" />
+      <Tool Name="VCManifestTool" OutputManifestFile="pc-vc-dev-opt\UTFXmlEAWebKit.embed.manifest" ManifestResourceFile="pc-vc-dev-opt\UTFXmlEAWebKit.embed.manifest.res" />
+      <Tool Name="VCManagedResourceCompilerTool" />
+      <Tool Name="VCResourceCompilerTool" AdditionalIncludeDirectories="&quot;..\..\..\..\..\..\EAWebKitSupportPackages\UTFXmlEAWebKit\local\include&quot;;&quot;..\..\..\..\..\..\EAWebKitSupportPackages\coreallocatorEAWebKit\local\include&quot;;&quot;..\..\..\..\..\..\EAWebKitSupportPackages\EABaseEAWebKit\local\include\Common&quot;;&quot;..\..\..\..\..\..\EAWebKitSupportPackages\EASTLEAWebKit\local\include&quot;;&quot;..\..\..\..\..\..\EAWebKitSupportPackages\EAAssertEAWebKit\local\include&quot;;&quot;..\..\..\..\..\..\EAWebKitSupportPackages\EAIOEAWebKit\local\include&quot;;&quot;..\..\..\..\..\..\EAWebKitSupportPackages\EAIOEAWebKit\local\include\EAIO\Wii&quot;;&quot;$(VSInstallDir)\VC\ATLMFC\INCLUDE&quot;;&quot;$(VSInstallDir)\VC\INCLUDE&quot;;&quot;$(WindowsSDKDir)\include&quot;;&quot;$(VSInstallDir)\SDK\v2.0\include&quot;;&quot;$(VSInstallDir)\INCLUDE&quot;" />
+      <Tool Name="VCPreLinkEventTool" />
+      <Tool Name="VCALinkTool" />
+      <Tool Name="VCXDCMakeTool" />
+      <Tool Name="VCBscMakeTool" />
+      <Tool Name="VCFxCopTool" />
+      <Tool Name="VCPostBuildEventTool" />
+    </Configuration>
+  </Configurations>
+  <References>
+  </References>
+  <Files>
+    <Filter Name="include" Filter="">
+      <Filter Name="UTFXml" Filter="">
+        <File RelativePath="..\..\..\..\..\..\EAWebKitSupportPackages\UTFXmlEAWebKit\local\include\UTFXml\XmlCallbackReader.h">
+        </File>
+        <File RelativePath="..\..\..\..\..\..\EAWebKitSupportPackages\UTFXmlEAWebKit\local\include\UTFXml\XmlCharClasses.inl">
+        </File>
+        <File RelativePath="..\..\..\..\..\..\EAWebKitSupportPackages\UTFXmlEAWebKit\local\include\UTFXml\XmlDomReader.h">
+        </File>
+        <File RelativePath="..\..\..\..\..\..\EAWebKitSupportPackages\UTFXmlEAWebKit\local\include\UTFXml\XmlEncoding.h">
+        </File>
+        <File RelativePath="..\..\..\..\..\..\EAWebKitSupportPackages\UTFXmlEAWebKit\local\include\UTFXml\XmlReader.h">
+        </File>
+        <File RelativePath="..\..\..\..\..\..\EAWebKitSupportPackages\UTFXmlEAWebKit\local\include\UTFXml\XmlTokenBuffer.h">
+        </File>
+        <File RelativePath="..\..\..\..\..\..\EAWebKitSupportPackages\UTFXmlEAWebKit\local\include\UTFXml\XmlWriter.h">
+        </File>
+      </Filter>
+    </Filter>
+    <Filter Name="source" Filter="">
+      <File RelativePath="..\..\..\..\..\..\EAWebKitSupportPackages\UTFXmlEAWebKit\local\source\XmlCallbackReader.cpp">
+        <FileConfiguration Name="pc-vc-dev-opt|Win32">
+          <Tool Name="VCCLCompilerTool" ObjectFile="UTFXmlEAWebKit\vcproj\source\XmlCallbackReader.cpp.obj" />
+        </FileConfiguration>
+      </File>
+      <File RelativePath="..\..\..\..\..\..\EAWebKitSupportPackages\UTFXmlEAWebKit\local\source\XmlDomReader.cpp">
+        <FileConfiguration Name="pc-vc-dev-opt|Win32">
+          <Tool Name="VCCLCompilerTool" ObjectFile="UTFXmlEAWebKit\vcproj\source\XmlDomReader.cpp.obj" />
+        </FileConfiguration>
+      </File>
+      <File RelativePath="..\..\..\..\..\..\EAWebKitSupportPackages\UTFXmlEAWebKit\local\source\XmlEncoding.cpp">
+        <FileConfiguration Name="pc-vc-dev-opt|Win32">
+          <Tool Name="VCCLCompilerTool" ObjectFile="UTFXmlEAWebKit\vcproj\source\XmlEncoding.cpp.obj" />
+        </FileConfiguration>
+      </File>
+      <File RelativePath="..\..\..\..\..\..\EAWebKitSupportPackages\UTFXmlEAWebKit\local\source\XmlReader.cpp">
+        <FileConfiguration Name="pc-vc-dev-opt|Win32">
+          <Tool Name="VCCLCompilerTool" ObjectFile="UTFXmlEAWebKit\vcproj\source\XmlReader.cpp.obj" />
+        </FileConfiguration>
+      </File>
+      <File RelativePath="..\..\..\..\..\..\EAWebKitSupportPackages\UTFXmlEAWebKit\local\source\XmlReaderErrors.cpp">
+        <FileConfiguration Name="pc-vc-dev-opt|Win32">
+          <Tool Name="VCCLCompilerTool" ObjectFile="UTFXmlEAWebKit\vcproj\source\XmlReaderErrors.cpp.obj" />
+        </FileConfiguration>
+      </File>
+      <File RelativePath="..\..\..\..\..\..\EAWebKitSupportPackages\UTFXmlEAWebKit\local\source\XmlTokenBuffer.cpp">
+        <FileConfiguration Name="pc-vc-dev-opt|Win32">
+          <Tool Name="VCCLCompilerTool" ObjectFile="UTFXmlEAWebKit\vcproj\source\XmlTokenBuffer.cpp.obj" />
+        </FileConfiguration>
+      </File>
+      <File RelativePath="..\..\..\..\..\..\EAWebKitSupportPackages\UTFXmlEAWebKit\local\source\XmlWriter.cpp">
+        <FileConfiguration Name="pc-vc-dev-opt|Win32">
+          <Tool Name="VCCLCompilerTool" ObjectFile="UTFXmlEAWebKit\vcproj\source\XmlWriter.cpp.obj" />
+        </FileConfiguration>
+      </File>
+      <Filter Name="internal" Filter="">
+        <File RelativePath="..\..\..\..\..\..\EAWebKitSupportPackages\UTFXmlEAWebKit\local\source\internal\UTFXmlCoreAllocator.cpp">
+          <FileConfiguration Name="pc-vc-dev-opt|Win32">
+            <Tool Name="VCCLCompilerTool" ObjectFile="UTFXmlEAWebKit\vcproj\source\internal\UTFXmlCoreAllocator.cpp.obj" />
+          </FileConfiguration>
+        </File>
+      </Filter>
+    </Filter>
+  </Files>
+  <Globals>
+    <Global Name="vc-compiler" Value="$(VSInstallDir)\VC\BIN\cl.exe" />
+    <Global Name="vc-linker" Value="$(VSInstallDir)\VC\BIN\link.exe" />
+    <Global Name="vc-asm" Value="$(VSInstallDir)\VC\BIN\ml.exe" />
+    <Global Name="vc-librarian" Value="$(VSInstallDir)\VC\BIN\lib.exe" />
+    <Global Name="vc-postlink.program" Value="$(WindowsSDKDir)\BIN\mt.exe" />
+    <Global Name="build.env.PATH" Value="$(VSInstallDir)\Common7\IDE" />
+    <Global Name="$(VSInstallDir)" Value="C:\Program Files\Microsoft Visual Studio 9.0" />
+    <Global Name="$(WindowsSDKDir)" Value="C:\packages\WindowsSDK\6.1.6001.18000\installed" />
+    <Global Name="$(DXSDK_DIR)" Value="C:\Program Files\Microsoft DirectX SDK (November 2008)" />
+  </Globals>
+</VisualStudioProject>

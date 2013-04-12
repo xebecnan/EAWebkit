@@ -1,0 +1,274 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<VisualStudioProject Version="9.00" Name="EAIOEAWebKit" TargetFrameworkVersion="196613" Keyword="Win32Proj" ProjectGUID="{537B0895-A4A8-EA43-FA54-1B64A1E188F2}" ProjectType="Visual C++">
+  <Platforms>
+    <Platform Name="Win32" />
+  </Platforms>
+  <ToolFiles>
+    <DefaultToolFile FileName="masm.rules" />
+  </ToolFiles>
+  <Configurations>
+    <Configuration Name="pc-vc-dev-debug|Win32" OutputDirectory="pc-vc-dev-debug\build\EAIOEAWebKit" IntermediateDirectory="pc-vc-dev-debug\build\EAIOEAWebKit\vcproj" CharacterSet="2" ConfigurationType="4">
+      <Tool Name="VCPreBuildEventTool" />
+      <Tool Name="VCCustomBuildTool" />
+      <Tool Name="MASM" />
+      <Tool Name="VCXMLDataGeneratorTool" />
+      <Tool Name="VCWebServiceProxyGeneratorTool" />
+      <Tool Name="VCMIDLTool" />
+      <Tool Name="VCCLCompilerTool" PreprocessorDefinitions="WIN32;EA_DEBUG;_DEBUG;_SECURE_SCL=1;UTF_USE_EAASSERT=1;EAIO_FILEPATH_ENABLED=0;_WIN32_WINNT=0x0501;WINVER=0x0501;_WIN32_IE=0x0501" AdditionalIncludeDirectories="&quot;..\..\..\..\EAWebKitSupportPackages\EAIOEAWebKit\local\include&quot;;&quot;..\..\..\..\EAWebKitSupportPackages\EABaseEAWebKit\local\include\Common&quot;;&quot;..\..\..\..\EAWebKitSupportPackages\coreallocatorEAWebKit\local\include&quot;;&quot;..\..\..\..\EAWebKitSupportPackages\EASTLEAWebKit\local\include&quot;;&quot;..\..\..\..\EAWebKitSupportPackages\EAAssertEAWebKit\local\include&quot;;&quot;$(VSInstallDir)\VC\ATLMFC\INCLUDE&quot;;&quot;$(VSInstallDir)\VC\INCLUDE&quot;;&quot;$(WindowsSDKDir)\include&quot;;&quot;$(VSInstallDir)\SDK\v2.0\include&quot;;&quot;$(VSInstallDir)\INCLUDE&quot;" AdditionalOptions="-Wall " MinimalRebuild="FALSE" BufferSecurityCheck="FALSE" Optimization="0" CompileOnly="TRUE" BasicRuntimeChecks="3" WarnAsError="FALSE" CompileAs="0" RuntimeLibrary="3" SuppressStartupBanner="TRUE" DebugInformationFormat="3" DisableSpecificWarnings="4365; 4548; 4619; 4530; 4217; 4917; 4061; 4062; 4100; 4324; 4619; 4514; 4640; 4668; 4710; 4711; 4738; 4820; 4826; 4819; 4826; 4692; 4996; " WarningLevel="4" ForceConformanceInForLoopScope="TRUE" ExceptionHandling="0" RuntimeTypeInfo="FALSE" ProgramDataBaseFileName="pc-vc-dev-debug\lib\EAIOEAWebKit.pdb" />
+      <Tool Name="VCLibrarianTool" OutputFile="pc-vc-dev-debug\lib\EAIOEAWebKit.lib" AdditionalDependencies="" SuppressStartupBanner="TRUE" />
+      <Tool Name="VCManifestTool" OutputManifestFile="pc-vc-dev-debug\EAIOEAWebKit.embed.manifest" ManifestResourceFile="pc-vc-dev-debug\EAIOEAWebKit.embed.manifest.res" />
+      <Tool Name="VCManagedResourceCompilerTool" />
+      <Tool Name="VCResourceCompilerTool" AdditionalIncludeDirectories="&quot;..\..\..\..\EAWebKitSupportPackages\EAIOEAWebKit\local\include&quot;;&quot;..\..\..\..\EAWebKitSupportPackages\EABaseEAWebKit\local\include\Common&quot;;&quot;..\..\..\..\EAWebKitSupportPackages\coreallocatorEAWebKit\local\include&quot;;&quot;..\..\..\..\EAWebKitSupportPackages\EASTLEAWebKit\local\include&quot;;&quot;..\..\..\..\EAWebKitSupportPackages\EAAssertEAWebKit\local\include&quot;;&quot;$(VSInstallDir)\VC\ATLMFC\INCLUDE&quot;;&quot;$(VSInstallDir)\VC\INCLUDE&quot;;&quot;$(WindowsSDKDir)\include&quot;;&quot;$(VSInstallDir)\SDK\v2.0\include&quot;;&quot;$(VSInstallDir)\INCLUDE&quot;" />
+      <Tool Name="VCPreLinkEventTool" />
+      <Tool Name="VCALinkTool" />
+      <Tool Name="VCXDCMakeTool" />
+      <Tool Name="VCBscMakeTool" />
+      <Tool Name="VCFxCopTool" />
+      <Tool Name="VCPostBuildEventTool" />
+    </Configuration>
+    <Configuration Name="pc-vc-dev-opt|Win32" OutputDirectory="pc-vc-dev-opt\build\EAIOEAWebKit" IntermediateDirectory="pc-vc-dev-opt\build\EAIOEAWebKit\vcproj" CharacterSet="2" ConfigurationType="4">
+      <Tool Name="VCPreBuildEventTool" />
+      <Tool Name="VCCustomBuildTool" />
+      <Tool Name="MASM" />
+      <Tool Name="VCXMLDataGeneratorTool" />
+      <Tool Name="VCWebServiceProxyGeneratorTool" />
+      <Tool Name="VCMIDLTool" />
+      <Tool Name="VCCLCompilerTool" PreprocessorDefinitions="WIN32;NDEBUG;_SECURE_SCL=0;UTF_USE_EAASSERT=1;EAIO_FILEPATH_ENABLED=0;_WIN32_WINNT=0x0501;WINVER=0x0501;_WIN32_IE=0x0501" AdditionalIncludeDirectories="&quot;..\..\..\..\EAWebKitSupportPackages\EAIOEAWebKit\local\include&quot;;&quot;..\..\..\..\EAWebKitSupportPackages\EABaseEAWebKit\local\include\Common&quot;;&quot;..\..\..\..\EAWebKitSupportPackages\coreallocatorEAWebKit\local\include&quot;;&quot;..\..\..\..\EAWebKitSupportPackages\EASTLEAWebKit\local\include&quot;;&quot;..\..\..\..\EAWebKitSupportPackages\EAAssertEAWebKit\local\include&quot;;&quot;$(VSInstallDir)\VC\ATLMFC\INCLUDE&quot;;&quot;$(VSInstallDir)\VC\INCLUDE&quot;;&quot;$(WindowsSDKDir)\include&quot;;&quot;$(VSInstallDir)\SDK\v2.0\include&quot;;&quot;$(VSInstallDir)\INCLUDE&quot;" AdditionalOptions="-Wall " MinimalRebuild="FALSE" BufferSecurityCheck="FALSE" Optimization="2" CompileOnly="TRUE" WarnAsError="FALSE" CompileAs="0" RuntimeLibrary="2" SuppressStartupBanner="TRUE" DebugInformationFormat="3" DisableSpecificWarnings="4365; 4548; 4619; 4530; 4217; 4917; 4061; 4062; 4100; 4324; 4619; 4514; 4640; 4668; 4710; 4711; 4738; 4820; 4826; 4819; 4826; 4692; 4996; " WarningLevel="4" ForceConformanceInForLoopScope="TRUE" ExceptionHandling="0" RuntimeTypeInfo="FALSE" ProgramDataBaseFileName="pc-vc-dev-opt\lib\EAIOEAWebKit.pdb" />
+      <Tool Name="VCLibrarianTool" OutputFile="pc-vc-dev-opt\lib\EAIOEAWebKit.lib" AdditionalDependencies="" SuppressStartupBanner="TRUE" />
+      <Tool Name="VCManifestTool" OutputManifestFile="pc-vc-dev-opt\EAIOEAWebKit.embed.manifest" ManifestResourceFile="pc-vc-dev-opt\EAIOEAWebKit.embed.manifest.res" />
+      <Tool Name="VCManagedResourceCompilerTool" />
+      <Tool Name="VCResourceCompilerTool" AdditionalIncludeDirectories="&quot;..\..\..\..\EAWebKitSupportPackages\EAIOEAWebKit\local\include&quot;;&quot;..\..\..\..\EAWebKitSupportPackages\EABaseEAWebKit\local\include\Common&quot;;&quot;..\..\..\..\EAWebKitSupportPackages\coreallocatorEAWebKit\local\include&quot;;&quot;..\..\..\..\EAWebKitSupportPackages\EASTLEAWebKit\local\include&quot;;&quot;..\..\..\..\EAWebKitSupportPackages\EAAssertEAWebKit\local\include&quot;;&quot;$(VSInstallDir)\VC\ATLMFC\INCLUDE&quot;;&quot;$(VSInstallDir)\VC\INCLUDE&quot;;&quot;$(WindowsSDKDir)\include&quot;;&quot;$(VSInstallDir)\SDK\v2.0\include&quot;;&quot;$(VSInstallDir)\INCLUDE&quot;" />
+      <Tool Name="VCPreLinkEventTool" />
+      <Tool Name="VCALinkTool" />
+      <Tool Name="VCXDCMakeTool" />
+      <Tool Name="VCBscMakeTool" />
+      <Tool Name="VCFxCopTool" />
+      <Tool Name="VCPostBuildEventTool" />
+    </Configuration>
+  </Configurations>
+  <References>
+  </References>
+  <Files>
+    <Filter Name="include" Filter="">
+      <Filter Name="EAIO" Filter="">
+        <File RelativePath="..\..\..\..\EAWebKitSupportPackages\EAIOEAWebKit\local\include\EAIO\Allocator.h">
+        </File>
+        <File RelativePath="..\..\..\..\EAWebKitSupportPackages\EAIOEAWebKit\local\include\EAIO\EAFileBase.h">
+        </File>
+        <File RelativePath="..\..\..\..\EAWebKitSupportPackages\EAIOEAWebKit\local\include\EAIO\EAFileDirectory.h">
+        </File>
+        <File RelativePath="..\..\..\..\EAWebKitSupportPackages\EAIOEAWebKit\local\include\EAIO\EAFileNotification.h">
+        </File>
+        <File RelativePath="..\..\..\..\EAWebKitSupportPackages\EAIOEAWebKit\local\include\EAIO\EAFileStream.h">
+        </File>
+        <File RelativePath="..\..\..\..\EAWebKitSupportPackages\EAIOEAWebKit\local\include\EAIO\EAFileUtil.h">
+        </File>
+        <File RelativePath="..\..\..\..\EAWebKitSupportPackages\EAIOEAWebKit\local\include\EAIO\EAIniFile.h">
+        </File>
+        <File RelativePath="..\..\..\..\EAWebKitSupportPackages\EAIOEAWebKit\local\include\EAIO\EAStream.h">
+        </File>
+        <File RelativePath="..\..\..\..\EAWebKitSupportPackages\EAIOEAWebKit\local\include\EAIO\EAStreamAdapter.h">
+        </File>
+        <File RelativePath="..\..\..\..\EAWebKitSupportPackages\EAIOEAWebKit\local\include\EAIO\EAStreamBuffer.h">
+        </File>
+        <File RelativePath="..\..\..\..\EAWebKitSupportPackages\EAIOEAWebKit\local\include\EAIO\EAStreamChild.h">
+        </File>
+        <File RelativePath="..\..\..\..\EAWebKitSupportPackages\EAIOEAWebKit\local\include\EAIO\EAStreamCpp.h">
+        </File>
+        <File RelativePath="..\..\..\..\EAWebKitSupportPackages\EAIOEAWebKit\local\include\EAIO\EAStreamFixedMemory.h">
+        </File>
+        <File RelativePath="..\..\..\..\EAWebKitSupportPackages\EAIOEAWebKit\local\include\EAIO\EAStreamMemory.h">
+        </File>
+        <File RelativePath="..\..\..\..\EAWebKitSupportPackages\EAIOEAWebKit\local\include\EAIO\EAStreamNull.h">
+        </File>
+        <File RelativePath="..\..\..\..\EAWebKitSupportPackages\EAIOEAWebKit\local\include\EAIO\FnEncode.h">
+        </File>
+        <File RelativePath="..\..\..\..\EAWebKitSupportPackages\EAIOEAWebKit\local\include\EAIO\FnMatch.h">
+        </File>
+        <File RelativePath="..\..\..\..\EAWebKitSupportPackages\EAIOEAWebKit\local\include\EAIO\PathString.h">
+        </File>
+        <Filter Name="internal" Filter="">
+          <File RelativePath="..\..\..\..\EAWebKitSupportPackages\EAIOEAWebKit\local\include\EAIO\internal\Config.h">
+          </File>
+          <File RelativePath="..\..\..\..\EAWebKitSupportPackages\EAIOEAWebKit\local\include\EAIO\internal\EAIOEARefCount.h">
+          </File>
+          <File RelativePath="..\..\..\..\EAWebKitSupportPackages\EAIOEAWebKit\local\include\EAIO\internal\EAIOEASTLCoreAllocator.h">
+          </File>
+          <File RelativePath="..\..\..\..\EAWebKitSupportPackages\EAIOEAWebKit\local\include\EAIO\internal\EAIOZoneObject.h">
+          </File>
+        </Filter>
+        <Filter Name="StdC" Filter="">
+          <File RelativePath="..\..\..\..\EAWebKitSupportPackages\EAIOEAWebKit\local\include\EAIO\StdC\EAFileStreamStdC.h">
+          </File>
+        </Filter>
+        <Filter Name="Unix" Filter="">
+          <File RelativePath="..\..\..\..\EAWebKitSupportPackages\EAIOEAWebKit\local\include\EAIO\Unix\EAFileStreamUnix.h">
+          </File>
+        </Filter>
+        <Filter Name="Win32" Filter="">
+          <File RelativePath="..\..\..\..\EAWebKitSupportPackages\EAIOEAWebKit\local\include\EAIO\Win32\EAFileStreamWin32.h">
+          </File>
+        </Filter>
+      </Filter>
+    </Filter>
+    <Filter Name="source" Filter="">
+      <File RelativePath="..\..\..\..\EAWebKitSupportPackages\EAIOEAWebKit\local\source\Allocator.cpp">
+        <FileConfiguration Name="pc-vc-dev-debug|Win32">
+          <Tool Name="VCCLCompilerTool" ObjectFile="pc-vc-dev-debug\build\EAIOEAWebKit\vcproj\source\Allocator.cpp.obj" />
+        </FileConfiguration>
+        <FileConfiguration Name="pc-vc-dev-opt|Win32">
+          <Tool Name="VCCLCompilerTool" ObjectFile="pc-vc-dev-opt\build\EAIOEAWebKit\vcproj\source\Allocator.cpp.obj" />
+        </FileConfiguration>
+      </File>
+      <File RelativePath="..\..\..\..\EAWebKitSupportPackages\EAIOEAWebKit\local\source\EAFileDirectory.cpp">
+        <FileConfiguration Name="pc-vc-dev-debug|Win32">
+          <Tool Name="VCCLCompilerTool" ObjectFile="pc-vc-dev-debug\build\EAIOEAWebKit\vcproj\source\EAFileDirectory.cpp.obj" />
+        </FileConfiguration>
+        <FileConfiguration Name="pc-vc-dev-opt|Win32">
+          <Tool Name="VCCLCompilerTool" ObjectFile="pc-vc-dev-opt\build\EAIOEAWebKit\vcproj\source\EAFileDirectory.cpp.obj" />
+        </FileConfiguration>
+      </File>
+      <File RelativePath="..\..\..\..\EAWebKitSupportPackages\EAIOEAWebKit\local\source\EAFileNotification.cpp">
+        <FileConfiguration Name="pc-vc-dev-debug|Win32">
+          <Tool Name="VCCLCompilerTool" ObjectFile="pc-vc-dev-debug\build\EAIOEAWebKit\vcproj\source\EAFileNotification.cpp.obj" />
+        </FileConfiguration>
+        <FileConfiguration Name="pc-vc-dev-opt|Win32">
+          <Tool Name="VCCLCompilerTool" ObjectFile="pc-vc-dev-opt\build\EAIOEAWebKit\vcproj\source\EAFileNotification.cpp.obj" />
+        </FileConfiguration>
+      </File>
+      <File RelativePath="..\..\..\..\EAWebKitSupportPackages\EAIOEAWebKit\local\source\EAFileStream.cpp">
+        <FileConfiguration Name="pc-vc-dev-debug|Win32">
+          <Tool Name="VCCLCompilerTool" ObjectFile="pc-vc-dev-debug\build\EAIOEAWebKit\vcproj\source\EAFileStream.cpp.obj" />
+        </FileConfiguration>
+        <FileConfiguration Name="pc-vc-dev-opt|Win32">
+          <Tool Name="VCCLCompilerTool" ObjectFile="pc-vc-dev-opt\build\EAIOEAWebKit\vcproj\source\EAFileStream.cpp.obj" />
+        </FileConfiguration>
+      </File>
+      <File RelativePath="..\..\..\..\EAWebKitSupportPackages\EAIOEAWebKit\local\source\EAFileUtil.cpp">
+        <FileConfiguration Name="pc-vc-dev-debug|Win32">
+          <Tool Name="VCCLCompilerTool" ObjectFile="pc-vc-dev-debug\build\EAIOEAWebKit\vcproj\source\EAFileUtil.cpp.obj" />
+        </FileConfiguration>
+        <FileConfiguration Name="pc-vc-dev-opt|Win32">
+          <Tool Name="VCCLCompilerTool" ObjectFile="pc-vc-dev-opt\build\EAIOEAWebKit\vcproj\source\EAFileUtil.cpp.obj" />
+        </FileConfiguration>
+      </File>
+      <File RelativePath="..\..\..\..\EAWebKitSupportPackages\EAIOEAWebKit\local\source\EAIniFile.cpp">
+        <FileConfiguration Name="pc-vc-dev-debug|Win32">
+          <Tool Name="VCCLCompilerTool" ObjectFile="pc-vc-dev-debug\build\EAIOEAWebKit\vcproj\source\EAIniFile.cpp.obj" />
+        </FileConfiguration>
+        <FileConfiguration Name="pc-vc-dev-opt|Win32">
+          <Tool Name="VCCLCompilerTool" ObjectFile="pc-vc-dev-opt\build\EAIOEAWebKit\vcproj\source\EAIniFile.cpp.obj" />
+        </FileConfiguration>
+      </File>
+      <File RelativePath="..\..\..\..\EAWebKitSupportPackages\EAIOEAWebKit\local\source\EAStreamAdapter.cpp">
+        <FileConfiguration Name="pc-vc-dev-debug|Win32">
+          <Tool Name="VCCLCompilerTool" ObjectFile="pc-vc-dev-debug\build\EAIOEAWebKit\vcproj\source\EAStreamAdapter.cpp.obj" />
+        </FileConfiguration>
+        <FileConfiguration Name="pc-vc-dev-opt|Win32">
+          <Tool Name="VCCLCompilerTool" ObjectFile="pc-vc-dev-opt\build\EAIOEAWebKit\vcproj\source\EAStreamAdapter.cpp.obj" />
+        </FileConfiguration>
+      </File>
+      <File RelativePath="..\..\..\..\EAWebKitSupportPackages\EAIOEAWebKit\local\source\EAStreamBuffer.cpp">
+        <FileConfiguration Name="pc-vc-dev-debug|Win32">
+          <Tool Name="VCCLCompilerTool" ObjectFile="pc-vc-dev-debug\build\EAIOEAWebKit\vcproj\source\EAStreamBuffer.cpp.obj" />
+        </FileConfiguration>
+        <FileConfiguration Name="pc-vc-dev-opt|Win32">
+          <Tool Name="VCCLCompilerTool" ObjectFile="pc-vc-dev-opt\build\EAIOEAWebKit\vcproj\source\EAStreamBuffer.cpp.obj" />
+        </FileConfiguration>
+      </File>
+      <File RelativePath="..\..\..\..\EAWebKitSupportPackages\EAIOEAWebKit\local\source\EAStreamChild.cpp">
+        <FileConfiguration Name="pc-vc-dev-debug|Win32">
+          <Tool Name="VCCLCompilerTool" ObjectFile="pc-vc-dev-debug\build\EAIOEAWebKit\vcproj\source\EAStreamChild.cpp.obj" />
+        </FileConfiguration>
+        <FileConfiguration Name="pc-vc-dev-opt|Win32">
+          <Tool Name="VCCLCompilerTool" ObjectFile="pc-vc-dev-opt\build\EAIOEAWebKit\vcproj\source\EAStreamChild.cpp.obj" />
+        </FileConfiguration>
+      </File>
+      <File RelativePath="..\..\..\..\EAWebKitSupportPackages\EAIOEAWebKit\local\source\EAStreamCpp.cpp">
+        <FileConfiguration Name="pc-vc-dev-debug|Win32">
+          <Tool Name="VCCLCompilerTool" ObjectFile="pc-vc-dev-debug\build\EAIOEAWebKit\vcproj\source\EAStreamCpp.cpp.obj" />
+        </FileConfiguration>
+        <FileConfiguration Name="pc-vc-dev-opt|Win32">
+          <Tool Name="VCCLCompilerTool" ObjectFile="pc-vc-dev-opt\build\EAIOEAWebKit\vcproj\source\EAStreamCpp.cpp.obj" />
+        </FileConfiguration>
+      </File>
+      <File RelativePath="..\..\..\..\EAWebKitSupportPackages\EAIOEAWebKit\local\source\EAStreamFixedMemory.cpp">
+        <FileConfiguration Name="pc-vc-dev-debug|Win32">
+          <Tool Name="VCCLCompilerTool" ObjectFile="pc-vc-dev-debug\build\EAIOEAWebKit\vcproj\source\EAStreamFixedMemory.cpp.obj" />
+        </FileConfiguration>
+        <FileConfiguration Name="pc-vc-dev-opt|Win32">
+          <Tool Name="VCCLCompilerTool" ObjectFile="pc-vc-dev-opt\build\EAIOEAWebKit\vcproj\source\EAStreamFixedMemory.cpp.obj" />
+        </FileConfiguration>
+      </File>
+      <File RelativePath="..\..\..\..\EAWebKitSupportPackages\EAIOEAWebKit\local\source\EAStreamMemory.cpp">
+        <FileConfiguration Name="pc-vc-dev-debug|Win32">
+          <Tool Name="VCCLCompilerTool" ObjectFile="pc-vc-dev-debug\build\EAIOEAWebKit\vcproj\source\EAStreamMemory.cpp.obj" />
+        </FileConfiguration>
+        <FileConfiguration Name="pc-vc-dev-opt|Win32">
+          <Tool Name="VCCLCompilerTool" ObjectFile="pc-vc-dev-opt\build\EAIOEAWebKit\vcproj\source\EAStreamMemory.cpp.obj" />
+        </FileConfiguration>
+      </File>
+      <File RelativePath="..\..\..\..\EAWebKitSupportPackages\EAIOEAWebKit\local\source\EAStreamNull.cpp">
+        <FileConfiguration Name="pc-vc-dev-debug|Win32">
+          <Tool Name="VCCLCompilerTool" ObjectFile="pc-vc-dev-debug\build\EAIOEAWebKit\vcproj\source\EAStreamNull.cpp.obj" />
+        </FileConfiguration>
+        <FileConfiguration Name="pc-vc-dev-opt|Win32">
+          <Tool Name="VCCLCompilerTool" ObjectFile="pc-vc-dev-opt\build\EAIOEAWebKit\vcproj\source\EAStreamNull.cpp.obj" />
+        </FileConfiguration>
+      </File>
+      <File RelativePath="..\..\..\..\EAWebKitSupportPackages\EAIOEAWebKit\local\source\FnEncode.cpp">
+        <FileConfiguration Name="pc-vc-dev-debug|Win32">
+          <Tool Name="VCCLCompilerTool" ObjectFile="pc-vc-dev-debug\build\EAIOEAWebKit\vcproj\source\FnEncode.cpp.obj" />
+        </FileConfiguration>
+        <FileConfiguration Name="pc-vc-dev-opt|Win32">
+          <Tool Name="VCCLCompilerTool" ObjectFile="pc-vc-dev-opt\build\EAIOEAWebKit\vcproj\source\FnEncode.cpp.obj" />
+        </FileConfiguration>
+      </File>
+      <File RelativePath="..\..\..\..\EAWebKitSupportPackages\EAIOEAWebKit\local\source\FnMatch.cpp">
+        <FileConfiguration Name="pc-vc-dev-debug|Win32">
+          <Tool Name="VCCLCompilerTool" ObjectFile="pc-vc-dev-debug\build\EAIOEAWebKit\vcproj\source\FnMatch.cpp.obj" />
+        </FileConfiguration>
+        <FileConfiguration Name="pc-vc-dev-opt|Win32">
+          <Tool Name="VCCLCompilerTool" ObjectFile="pc-vc-dev-opt\build\EAIOEAWebKit\vcproj\source\FnMatch.cpp.obj" />
+        </FileConfiguration>
+      </File>
+      <File RelativePath="..\..\..\..\EAWebKitSupportPackages\EAIOEAWebKit\local\source\PathString.cpp">
+        <FileConfiguration Name="pc-vc-dev-debug|Win32">
+          <Tool Name="VCCLCompilerTool" ObjectFile="pc-vc-dev-debug\build\EAIOEAWebKit\vcproj\source\PathString.cpp.obj" />
+        </FileConfiguration>
+        <FileConfiguration Name="pc-vc-dev-opt|Win32">
+          <Tool Name="VCCLCompilerTool" ObjectFile="pc-vc-dev-opt\build\EAIOEAWebKit\vcproj\source\PathString.cpp.obj" />
+        </FileConfiguration>
+      </File>
+      <Filter Name="internal" Filter="">
+        <File RelativePath="..\..\..\..\EAWebKitSupportPackages\EAIOEAWebKit\local\source\internal\EAIOCoreAllocator.cpp">
+          <FileConfiguration Name="pc-vc-dev-debug|Win32">
+            <Tool Name="VCCLCompilerTool" ObjectFile="pc-vc-dev-debug\build\EAIOEAWebKit\vcproj\source\internal\EAIOCoreAllocator.cpp.obj" />
+          </FileConfiguration>
+          <FileConfiguration Name="pc-vc-dev-opt|Win32">
+            <Tool Name="VCCLCompilerTool" ObjectFile="pc-vc-dev-opt\build\EAIOEAWebKit\vcproj\source\internal\EAIOCoreAllocator.cpp.obj" />
+          </FileConfiguration>
+        </File>
+        <File RelativePath="..\..\..\..\EAWebKitSupportPackages\EAIOEAWebKit\local\source\internal\EAIOZoneObject.cpp">
+          <FileConfiguration Name="pc-vc-dev-debug|Win32">
+            <Tool Name="VCCLCompilerTool" ObjectFile="pc-vc-dev-debug\build\EAIOEAWebKit\vcproj\source\internal\EAIOZoneObject.cpp.obj" />
+          </FileConfiguration>
+          <FileConfiguration Name="pc-vc-dev-opt|Win32">
+            <Tool Name="VCCLCompilerTool" ObjectFile="pc-vc-dev-opt\build\EAIOEAWebKit\vcproj\source\internal\EAIOZoneObject.cpp.obj" />
+          </FileConfiguration>
+        </File>
+      </Filter>
+    </Filter>
+  </Files>
+  <Globals>
+    <Global Name="vc-compiler" Value="$(VSInstallDir)\VC\BIN\cl.exe" />
+    <Global Name="vc-linker" Value="$(VSInstallDir)\VC\BIN\link.exe" />
+    <Global Name="vc-asm" Value="$(VSInstallDir)\VC\BIN\ml.exe" />
+    <Global Name="vc-librarian" Value="$(VSInstallDir)\VC\BIN\lib.exe" />
+    <Global Name="vc-postlink.program" Value="$(WindowsSDKDir)\BIN\mt.exe" />
+    <Global Name="build.env.PATH" Value="$(VSInstallDir)\Common7\IDE" />
+    <Global Name="$(VSInstallDir)" Value="C:\Program Files\Microsoft Visual Studio 9.0" />
+    <Global Name="$(WindowsSDKDir)" Value="C:\packages\WindowsSDK\6.1.6001.18000\installed" />
+    <Global Name="$(DXSDK_DIR)" Value="C:\Program Files\Microsoft DirectX SDK (November 2008)" />
+  </Globals>
+</VisualStudioProject>
